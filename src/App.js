@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SocialLogin from "./components/SocialLogin";
+//import InputField from "./components/InputField";
+import Login from './components/Login';
+import Signup from './components/Signup';
+import EnrollLib from './components/EnrollLib';
+import CreateLib from './components/CreateLib';
+import AssignAdmin from './components/AssignAdmin';
+import Profile from './components/Profile';
+import SearchBooks from './components/SearchBooks';
+import AddBook from './components/AddBook';
+import Request_approve_decline from './components/Request';
+import GetIssueReg from './components/GetIssueReg';
+import NavBar from './components/NavBar';
+import LogOut from './components/LogOut';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <div >
+        <NavBar/>
+        <Routes>
+          <Route path="/social-login" element={<SocialLogin />} />
+          <Route path="/" element={<Login/> } />
+          <Route path="/signup" element={<Signup/>}/>
+          <Route path="/enroll" element={<EnrollLib/>}/>
+          <Route path="/create" element={<CreateLib/>}/>
+          <Route path="/assign" element={<AssignAdmin/>}/>
+          <Route path="/profile" element={<Profile/>}/>
+          <Route path="/books" element={<SearchBooks/>}/>
+          <Route path="/addbook" element={<AddBook/>}/>
+          <Route path="/request" element={<Request_approve_decline/>}/>
+          <Route path="/issuereg" element={<GetIssueReg/>}/>
+          <Route path="/logout" element={<LogOut/>}/>
+        </Routes>
+      </div>
+    </Router>
+  )
 }
 
 export default App;

@@ -1,0 +1,228 @@
+/* Basic CSS Reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .log {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+  }
+  
+
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+   */
+
+   .login-containerr {
+    background: #ffffff;
+    padding: 80px;
+    border-radius: 10px;
+    min-width:100vw;
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    background-color: tan;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .library-list {
+    margin: auto;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .library-list h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2em;
+  }
+  .ul_con {
+    text-align: center;
+    align-items: center;
+    /* background-color: green; */
+  }
+  .library-list ul {
+    margin: auto;
+    list-style: none;
+    width:60%;
+    align-items: center;
+    text-align: center;
+    /* background-color: red; */
+    /* position: relative; */
+  }
+  
+  .library-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: .6em;
+    margin-bottom: .6em;
+    border-radius: .3em;
+    /* width:20em; */
+    border: 1px solid #ddd;
+  }
+  
+  .library-list li:hover {
+    background: #f1f1f1;
+  }
+  
+  .login-button {
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width:100%;
+    margin-top: 1em;
+    transition: background 0.3s;
+  }
+  
+  .login-button:hover {
+    background: #0056b3;
+  }
+  .result-message {
+    margin:auto;
+    max-width: 330px;
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .login-container {
+    align-items: center;
+      padding: 15px;
+    }
+  
+    .library-list li {
+        padding: .6em;
+        align-items: center;
+      flex-direction: column;
+      
+    }
+  
+    .login-button {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px 20px;
+    }
+  }
+   /* Basic CSS Reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .log {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+  }
+  
+  .login-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .library-list {
+    margin-top: 20px;
+  }
+  
+  .library-list h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .library-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .library-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .library-list li:hover {
+    background: #f1f1f1;
+  }
+  
+  .login-button {
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-button:hover {
+    background: #0056b3;
+  }
+  
+  .result-message {
+    margin-top: 20px;
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .login-container {
+      padding: 15px;
+    }
+  
+    .library-list li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .login-button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  } */
