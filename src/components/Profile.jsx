@@ -43,11 +43,11 @@ function Profile() {
   }, [profile]);
 
   if (loading) {
-    return <div className="loader">Loading...</div>;
+    return  <div className="profile-card"><div className="loader">Loading...</div></div>;
   }
 
   if (error) {
-    return <div className="error">{error}</div>;
+    return  <div className="profile-card"><div className="error">{error}</div></div>;
   }
 
   return (
